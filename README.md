@@ -1,27 +1,34 @@
 # Forecasting_Net_Prophet
-Use of Facebook Prophet for forecasting Google search and analize periodical trends for marketing purposes.
+This notebook shows time series analysis, emphasizing the use of dates, and the forecasting of sales and Google searches using Facebook Prophet. The analysis shows how to decompose time series in trends, seasonality, and periodicity.
+Thye time series tools are applied to marketing analysis of MercadoLibre, which is a lider providing online shopping in Latin America.
 
 ## Technologies
-The analysis is main done in Google Colab. Technologies used are:
+The analysis is done in Google Colab at https://colab.research.google.com. The main technologies used are:
 Pandas, Holoviews, Facebook Prophet, Hvplot, Datetime, Numpy and Matplotlib inline.
 
 
 ## Instalation Guide
-The file is a jupyter notebook. If you don't have jupyter notebook, you can install it following the instruction here:
 
-https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html
-
-
-In case you need to install some of the tools, use:
+If you don't have this tools, you need to install them:
 *  `!pip install pystan`
 * `!pip install fbprophet`
 *  `!pip install hvplot`
 *  `!pip install holoviews`
 
+The installation appear in the first cewll of the notebook.
+
 
 ### Usage
 
 The main file is the ``forecasting_net_prophet.ipynb`` Jupyter Notebook. You should open it in Google Colab and run it completely in order to see the graphs.
+
+For the upload of the files, the files should be selected during the run. There are three files to upload, and the cells to do it are the ones with this code:
+
+`from google.colab import files`
+
+`uploaded = files.upload()`
+
+The files are in the Resources folder, and needs to be selected on the spot.
 
 
 ## Contributors
