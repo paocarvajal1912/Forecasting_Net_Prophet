@@ -47,8 +47,7 @@ The files are in the Resources folder, and needs to be selected on the spot.
 <img src="Images/heatmap_traffic_per_hour_of_day.png" alt="Logo" width="800">
 <img src="Images/average_traffic_per_week.png" alt="Logo" width="800">
 
-<img src="Images/average_mercado_traffic_per_day_of_the_week.png" alt="Logo" width="800">
-
+<img src="Images/Weekly_Traffic.png" alt="Logo" width="800">
 
 <img src="Images/mercado_stok_price_per_hour.png" alt="Logo" width="800">
 <img src="Images/Monthly_Traffic.png" alt="Logo" width="800">
